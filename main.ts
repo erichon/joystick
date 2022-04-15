@@ -27,4 +27,7 @@ basic.showLeds(`
 basic.forever(function () {
     radio.sendValue("x", pins.analogReadPin(AnalogPin.P2))
     radio.sendValue("y", pins.analogReadPin(AnalogPin.P1))
+    if (pins.digitalReadPin(DigitalPin.P12) == 0) {
+        radio.sendValue("stop", 1)
+    }
 })
