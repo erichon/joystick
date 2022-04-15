@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="oL~O7%YN6sw(N_iEQ4SG" x="68" y="-175"><statement name="HANDLER"><block type="radio_set_group" id="V%Jf,*Yc*Y$VKr/lF~D$"><value name="ID"><shadow type="math_number_minmax" id="}YI|}ZYwd)NF}u(+cZQ#"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="m}NQrU_D@Q=j!`5|?iK."><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_forever" id="{`7SZY{Q2X-AV:Nl5^(]" x="321" y="-176"><statement name="HANDLER"><block type="radio_datagram_send_value" id="hv}vPWB92`0t%z+9u9qs"><value name="name"><shadow type="text" id="_xmpSZl4iaYn?gsw^8=e"><field name="TEXT">x</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="Uc3P.Su$DWM:zW|([GFO"><field name="name">AnalogPin.P2</field></block></value><next><block type="radio_datagram_send_value" id="0bU*j:UUEu`rE-NU$-E@"><value name="name"><shadow type="text" id="(o8}]J(6CL|b+pjU|$Ne"><field name="TEXT">y</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="|T^2%.7#?@K97e2L}BnP"><field name="name">AnalogPin.P1</field></block></value></block></next></block></statement></block><block type="device_button_event" id=":)m[_N`ad@%p0!%@ZfuD" x="58" y="200"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id=")j,#yqXzB{)W+aOvwBYU"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="9u1Sg)%SbWN%x0ecFO$=" x="330" y="198"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="S:^`A}$|pxv)3ZozxB{^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
